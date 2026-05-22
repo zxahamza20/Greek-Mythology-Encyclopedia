@@ -141,3 +141,19 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Python
+__pycache__/
+*.pyc
+.env
+poetry.lock  # if you prefer to commit it, remove this line
+
+# Node
+node_modules/
+.next/
+.env.local
+*.log
+
+# IDE
+.vscode/
+.idea/
