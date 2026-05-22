@@ -91,41 +91,41 @@ User Browser
 ---
 
 ## 📁 Project Structure
-greek-mythology-encyclopedia/
-├── .github/workflows/ # CI/CD (optional)
-├── backend/ # FastAPI application
-│ ├── app/
-│ │ ├── api/ # Routes & dependencies
-│ │ ├── config.py # Settings (Neo4j URI, Redis, etc.)
-│ │ ├── database/ # Neo4j & Redis clients
-│ │ ├── main.py # FastAPI app entry point
-│ │ ├── models/ # Pydantic models
-│ │ ├── repositories/ # Cypher queries
-│ │ ├── services/ # Business logic
-│ │ └── utils/ # Helpers
-│ ├── tests/
-│ ├── pyproject.toml # Poetry dependencies
-│ ├── Dockerfile
-│ └── .env.example
-├── frontend/ # Next.js application
-│ ├── app/
-│ │ ├── (categories)/ # Route groups: gods, heroes, etc.
-│ │ ├── entity/[slug]/ # Dynamic entity page
-│ │ ├── family-tree/
-│ │ ├── search/
-│ │ ├── layout.tsx
-│ │ └── page.tsx # Homepage with 6 flexbox containers
-│ ├── components/
-│ │ ├── navbar/ # Navbar, search bar, theme toggle
-│ │ └── ui/ # EntityGrid, EntityCard, FamilyGraph, HyperlinkText
-│ ├── lib/ # API client, types, constants
-│ ├── hooks/ # useDebounce, useEntity
-│ ├── public/ # Static images
-│ ├── tailwind.config.ts
-│ └── .env.local.example
-├── docker-compose.yml # Local Neo4j + Redis + backend
-├── .gitignore
-└── README.md
+- greek-mythology-encyclopedia/
+- ├── .github/workflows/ # CI/CD (optional)
+- ├── backend/ # FastAPI application
+- │ ├── app/
+- │ │ ├── api/ # Routes & dependencies
+- │ │ ├── config.py # Settings (Neo4j URI, Redis, etc.)
+- │ │ ├── database/ # Neo4j & Redis clients
+- │ │ ├── main.py # FastAPI app entry point
+- │ │ ├── models/ # Pydantic models
+- │ │ ├── repositories/ # Cypher queries
+- │ │ ├── services/ # Business logic
+- │ │ └── utils/ # Helpers
+- │ ├── tests/
+- │ ├── pyproject.toml # Poetry dependencies
+- │ ├── Dockerfile
+- │ └── .env.example
+- ├── frontend/ # Next.js application
+- │ ├── app/
+- │ │ ├── (categories)/ # Route groups: gods, heroes, etc.
+- │ │ ├── entity/[slug]/ # Dynamic entity page
+- │ │ ├── family-tree/
+- │ │ ├── search/
+- │ │ ├── layout.tsx
+- │ │ └── page.tsx # Homepage with 6 flexbox containers
+- │ ├── components/
+- │ │ ├── navbar/ # Navbar, search bar, theme toggle
+- │ │ └── ui/ # EntityGrid, EntityCard, FamilyGraph, HyperlinkText
+- │ ├── lib/ # API client, types, constants
+- │ ├── hooks/ # useDebounce, useEntity
+- │ ├── public/ # Static images
+- │ ├── tailwind.config.ts
+- │ └── .env.local.example
+- ├── docker-compose.yml # Local Neo4j + Redis + backend
+- ├── .gitignore
+- └── README.md
 ---
 
 ## 🔧 Prerequisites
