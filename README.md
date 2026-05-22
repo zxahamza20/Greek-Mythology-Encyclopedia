@@ -6,7 +6,6 @@ An interactive encyclopedia of Greek mythology, built with a **graph database (N
 [![Next.js](https://img.shields.io/badge/Next.js-14.2.0-000000?logo=next.js)](https://nextjs.org/)
 [![Neo4j](https://img.shields.io/badge/Neo4j-5.20-008CC1?logo=neo4j)](https://neo4j.com/)
 [![Tailwind](https://img.shields.io/badge/Tailwind-3.4.0-06B6D4?logo=tailwindcss)](https://tailwindcss.com/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
 
